@@ -1,3 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
 body {
-background: rgb(190, 204, 233);
+background: rgb(169, 188, 224);
+}
+
+p {
+color: rgb(60, 93, 93);
+font-size: 160%;
+line-height: 155%;
+padding: 3%;
+text-indent: 2%;
+text-align:justify;
+}
+
+h3 {
+    font-size: 175%;
+    line-height: 155%;
+
 }
