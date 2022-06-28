@@ -26,6 +26,9 @@ h3 {
     text-transform: uppercase;
 
 }
+.porf {
+    background-color: #f5f5f5;
+}
 a {
     color: rgb(141, 194, 194);
     text-decoration: none;
@@ -86,8 +89,11 @@ nav ul li a{
     float: left;
     padding: 10px;
     text-align: center;
+   
 }
-
+.pepe{
+    background-color: #f5f5f5;
+}
 .icon-wrap {
     margin: 0 auto;
     width: 120px;
@@ -96,6 +102,10 @@ nav ul li a{
     border-radius: 125px;
     text-align: center;
     margin-top: 3%;
+}
+#skills {
+    background-size: 100%;
+   
 }
 
 .icon-wrap i{
@@ -237,7 +247,19 @@ footer{
   }
 
   .sidebar {
+    display: flex;
+    
     width: 100%;
+    border: 1px solid #000;
+  }
+  .portafolio{
+    width: 50%;
+    margin: 0;
+    padding: 1%;
+    border: 1px solid rgb(9, 0, 0);
+  }
+  .portafolio-des{
+    width: 50%;
   }
 
   .one-third-padding {
